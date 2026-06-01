@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard SDAY 6 JUNIO | Academia Serfa</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+    a { color: inherit; text-decoration: none; }
+
+    header {
+      background: #161b27;
+      border-bottom: 1px solid #1e2535;
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .header-title { font-size: 1.1rem; font-weight: 700; color: #f8fafc; letter-spacing: .3px; }
+    .header-sub { font-size: .78rem; color: #64748b; margin-top: 2px; }
+    .badge {
+      font-size: .7rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: #1e3a5f;
+      color: #60a5fa;
+      letter-spacing: .4px;
+    }
+
+    main { max-width: 1200px; margin: 0 auto; padding: 28px 24px 48px; }
+
+    .section-label {
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #475569;
+      margin-bottom: 12px;
+      margin-top: 32px;
+    }
+
+    /* KPI CARDS */
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+    .kpi {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .kpi-label { font-size: .7rem; color: #64748b; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 6px; }
+    .kpi-value { font-size: 1.6rem; font-weight: 700; color: #f8fafc; line-height: 1; }
+    .kpi-sub { font-size: .72rem; color: #475569; margin-top: 5px; }
+    .kpi-accent { border-top: 2px solid #3b82f6; }
+    .kpi-hot   { border-top: 2px solid #f97316; }
+    .kpi-cold  { border-top: 2px solid #22d3ee; }
+    .kpi-green { border-top: 2px solid #22c55e; }
+
+    /* AUDIENCIAS */
+    .aud-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .aud-card {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .aud-title { font-size: .78rem; font-weight: 700; letter-spacing: .5px; margin-bottom: 12px; }
+    .aud-hot  .aud-title { color: #fb923c; }
+    .aud-cold .aud-title { color: #22d3ee; }
+    .aud-row { display: flex; justify-content: space-between; font-size: .8rem; margin-bottom: 6px; color: #94a3b8; }
+    .aud-row span:last-child { color: #e2e8f0; font-weight: 600; }
+
+    /* FUNIL */
+    .funil-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
+    .funil-step {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 8px;
+      padding: 14px 16px;
+      text-align: center;
+    }
+    .funil-step-label { font-size: .65rem; color: #64748b; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 6px; }
+    .funil-step-value { font-size: 1.25rem; font-weight: 700; color: #f8fafc; }
+    .funil-step-pct { font-size: .7rem; color: #3b82f6; margin-top: 4px; }
+    .funil-arrow { display: flex; align-items: center; justify-content: center; color: #334155; font-size: 1.1rem; padding: 0 4px; }
+
+    /* CHARTS */
+    .charts-row { display: grid; grid-template-columns: 2fr 1fr; gap: 14px; }
+    .chart-card {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .chart-title { font-size: .75rem; font-weight: 600; color: #94a3b8; margin-bottom: 14px; text-transform: uppercase; letter-spacing: .6px; }
+    .chart-wrap { position: relative; height: 200px; }
+
+    /* CANAIS TABLE */
+    .table-card {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: .8rem; }
+    thead th {
+      background: #1e2535;
+      color: #64748b;
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      padding: 10px 16px;
+      text-align: left;
+      font-weight: 600;
+    }
+    tbody td { padding: 10px 16px; border-bottom: 1px solid #1e2535; color: #cbd5e1; }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover td { background: #1a2030; }
+    .pct-bar-wrap { display: flex; align-items: center; gap: 8px; }
+    .pct-bar { height: 6px; border-radius: 3px; background: #3b82f6; min-width: 2px; }
+    .pct-label { font-size: .72rem; color: #64748b; white-space: nowrap; }
+
+    /* SCORING */
+    .scoring-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .score-card {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      padding: 16px 18px;
+      text-align: center;
+    }
+    .score-label { font-size: .65rem; color: #64748b; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 8px; }
+    .score-value { font-size: 2rem; font-weight: 700; }
+    .score-ideal { color: #22c55e; }
+    .score-bom   { color: #3b82f6; }
+    .score-desc  { color: #ef4444; }
+    .score-na    { color: #475569; }
+
+    /* LEITURA */
+    .leitura-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .leitura-card {
+      background: #161b27;
+      border: 1px solid #1e2535;
+      border-radius: 10px;
+      padding: 18px 20px;
+    }
+    .leitura-lang { font-size: .65rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #3b82f6; margin-bottom: 8px; }
+    .leitura-text { font-size: .82rem; color: #94a3b8; line-height: 1.65; }
+
+    /* CRIATIVOS */
+    .criativo-row td:first-child { max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #94a3b8; font-size: .75rem; }
+
+    /* FOOTER */
+    footer { text-align: center; font-size: .68rem; color: #334155; padding: 24px; margin-top: 16px; }
+
+    @media (max-width: 700px) {
+      .aud-grid, .charts-row, .leitura-grid { grid-template-columns: 1fr; }
+      .funil-grid { grid-template-columns: repeat(2, 1fr); }
+      .scoring-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="header-title" id="hdr-title">Academia Serfa | SDAY 6 JUNIO</div>
+    <div class="header-sub" id="hdr-sub">Carregando...</div>
+  </div>
+  <div class="badge" id="hdr-badge">--</div>
+</header>
+
+<main>
+
+  <div class="section-label">KPIs Principales</div>
+  <div class="kpi-grid">
+    <div class="kpi kpi-accent">
+      <div class="kpi-label">Leads Totais</div>
+      <div class="kpi-value" id="k-leads">--</div>
+      <div class="kpi-sub" id="k-periodo">--</div>
+    </div>
+    <div class="kpi kpi-green">
+      <div class="kpi-label">Investimento</div>
+      <div class="kpi-value" id="k-spend">--</div>
+      <div class="kpi-sub">Meta Ads</div>
+    </div>
+    <div class="kpi kpi-accent">
+      <div class="kpi-label">CPL Total</div>
+      <div class="kpi-value" id="k-cpl">--</div>
+      <div class="kpi-sub">Custo por lead</div>
+    </div>
+    <div class="kpi kpi-hot">
+      <div class="kpi-label">CPL HOT</div>
+      <div class="kpi-value" id="k-cpl-hot">--</div>
+      <div class="kpi-sub" id="k-hot-leads">--</div>
+    </div>
+    <div class="kpi kpi-cold">
+      <div class="kpi-label">CPL FRIO</div>
+      <div class="kpi-value" id="k-cpl-cold">--</div>
+      <div class="kpi-sub" id="k-cold-leads">--</div>
+    </div>
+  </div>
+
+  <div class="section-label">Audiencias</div>
+  <div class="aud-grid">
+    <div class="aud-card aud-hot">
+      <div class="aud-title">PUBLICO HOT</div>
+      <div class="aud-row"><span>Leads</span><span id="a-hot-leads">--</span></div>
+      <div class="aud-row"><span>Investimento</span><span id="a-hot-spend">--</span></div>
+      <div class="aud-row"><span>CPL</span><span id="a-hot-cpl">--</span></div>
+    </div>
+    <div class="aud-card aud-cold">
+      <div class="aud-title">PUBLICO FRIO</div>
+      <div class="aud-row"><span>Leads</span><span id="a-cold-leads">--</span></div>
+      <div class="aud-row"><span>Investimento</span><span id="a-cold-spend">--</span></div>
+      <div class="aud-row"><span>CPL</span><span id="a-cold-cpl">--</span></div>
+    </div>
+  </div>
+
+  <div class="section-label">Funil de Conversão</div>
+  <div class="funil-grid">
+    <div class="funil-step">
+      <div class="funil-step-label">Impressões</div>
+      <div class="funil-step-value" id="f-imp">--</div>
+      <div class="funil-step-pct"></div>
+    </div>
+    <div class="funil-step">
+      <div class="funil-step-label">Cliques</div>
+      <div class="funil-step-value" id="f-clk">--</div>
+      <div class="funil-step-pct" id="f-ctr">--</div>
+    </div>
+    <div class="funil-step">
+      <div class="funil-step-label">LPV</div>
+      <div class="funil-step-value" id="f-lpv">--</div>
+      <div class="funil-step-pct" id="f-lpv-pct">--</div>
+    </div>
+    <div class="funil-step">
+      <div class="funil-step-label">Leads</div>
+      <div class="funil-step-value" id="f-leads">--</div>
+      <div class="funil-step-pct" id="f-lead-pct">--</div>
+    </div>
+  </div>
+
+  <div class="section-label">Evolução de Leads</div>
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-title">Leads por Dia</div>
+      <div class="chart-wrap"><canvas id="chart-dias"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Leads por Canal</div>
+      <div class="chart-wrap"><canvas id="chart-canais"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-label">Canais</div>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Canal</th><th>Leads</th><th>Distribuição</th></tr></thead>
+      <tbody id="tb-canais"></tbody>
+    </table>
+  </div>
+
+  <div class="section-label">Lead Scoring</div>
+  <div class="scoring-grid">
+    <div class="score-card"><div class="score-label">Ideal</div><div class="score-value score-ideal" id="sc-ideal">--</div></div>
+    <div class="score-card"><div class="score-label">Bom</div><div class="score-value score-bom" id="sc-bom">--</div></div>
+    <div class="score-card"><div class="score-label">Descarte</div><div class="score-value score-desc" id="sc-desc">--</div></div>
+    <div class="score-card"><div class="score-label">Sem Dados</div><div class="score-value score-na" id="sc-na">--</div></div>
+  </div>
+
+  <div class="section-label">Top Criativos (por Gasto)</div>
+  <div class="table-card">
+    <table>
+      <thead><tr><th>Criativo</th><th>Spend</th><th>Impressões</th><th>Cliques</th></tr></thead>
+      <tbody id="tb-criativos"></tbody>
+    </table>
+  </div>
+
+  <div class="section-label">Leitura Analítica</div>
+  <div class="leitura-grid">
+    <div class="leitura-card">
+      <div class="leitura-lang">ES</div>
+      <div class="leitura-text" id="leitura-es">--</div>
+    </div>
+    <div class="leitura-card">
+      <div class="leitura-lang">PT</div>
+      <div class="leitura-text" id="leitura-pt">--</div>
+    </div>
+  </div>
+
+</main>
+
+<footer id="footer">Academia Serfa</footer>
+
+<script>
+const fmt = (n, dec=2) => '€' + Number(n).toLocaleString('pt-BR', {minimumFractionDigits: dec, maximumFractionDigits: dec});
+const fmtN = n => Number(n).toLocaleString('pt-BR');
+
+fetch('data.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    // Header
+    document.getElementById('hdr-title').textContent = d.meta.cliente + ' | ' + d.meta.evento;
+    document.getElementById('hdr-sub').textContent = 'Periodo: ' + d.meta.periodo;
+    document.getElementById('hdr-badge').textContent = 'Atualizado ' + d.meta.atualizado_em;
+
+    // KPIs
+    document.getElementById('k-leads').textContent = fmtN(d.kpis.leads_total);
+    document.getElementById('k-periodo').textContent = d.meta.periodo;
+    document.getElementById('k-spend').textContent = fmt(d.kpis.investimento_total);
+    document.getElementById('k-cpl').textContent = fmt(d.kpis.cpl_total);
+    document.getElementById('k-cpl-hot').textContent = fmt(d.audiencias.hot.cpl);
+    document.getElementById('k-hot-leads').textContent = fmtN(d.audiencias.hot.leads) + ' leads';
+    document.getElementById('k-cpl-cold').textContent = fmt(d.audiencias.cold.cpl);
+    document.getElementById('k-cold-leads').textContent = fmtN(d.audiencias.cold.leads) + ' leads';
+
+    // Audiencias
+    document.getElementById('a-hot-leads').textContent = fmtN(d.audiencias.hot.leads);
+    document.getElementById('a-hot-spend').textContent = fmt(d.audiencias.hot.spend);
+    document.getElementById('a-hot-cpl').textContent = fmt(d.audiencias.hot.cpl);
+    document.getElementById('a-cold-leads').textContent = fmtN(d.audiencias.cold.leads);
+    document.getElementById('a-cold-spend').textContent = fmt(d.audiencias.cold.spend);
+    document.getElementById('a-cold-cpl').textContent = fmt(d.audiencias.cold.cpl);
+
+    // Funil
+    const fn = d.funil;
+    document.getElementById('f-imp').textContent = fmtN(fn.impressoes);
+    document.getElementById('f-clk').textContent = fmtN(fn.cliques);
+    document.getElementById('f-ctr').textContent = 'CTR ' + fn.ctr + '%';
+    document.getElementById('f-lpv').textContent = fmtN(fn.lpv);
+    document.getElementById('f-lpv-pct').textContent = fn.clk_to_lpv_pct + '% de cliques';
+    document.getElementById('f-leads').textContent = fmtN(fn.leads);
+    document.getElementById('f-lead-pct').textContent = fn.lpv_to_lead_pct + '% de LPV';
+
+    // Chart: leads por dia
+    const dias = d.leads_por_dia;
+    new Chart(document.getElementById('chart-dias'), {
+      type: 'bar',
+      data: {
+        labels: dias.map(x => x.data),
+        datasets: [{ label: 'Leads', data: dias.map(x => x.leads),
+          backgroundColor: '#3b82f6', borderRadius: 4 }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e2535' } },
+          y: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e2535' } }
+        }
+      }
+    });
+
+    // Chart: canais
+    const canPaid = d.canais.filter(c => !['Organico','Sem Rastreio'].includes(c.canal));
+    const canColors = ['#3b82f6','#f97316','#22d3ee','#a855f7','#22c55e'];
+    new Chart(document.getElementById('chart-canais'), {
+      type: 'doughnut',
+      data: {
+        labels: d.canais.map(c => c.canal),
+        datasets: [{ data: d.canais.map(c => c.leads),
+          backgroundColor: ['#3b82f6','#f97316','#22d3ee','#a855f7','#64748b'],
+          borderWidth: 0, hoverOffset: 6 }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 10 }, padding: 10, boxWidth: 10 } }
+        }
+      }
+    });
+
+    // Tabela canais
+    const maxLeads = Math.max(...d.canais.map(c => c.leads));
+    document.getElementById('tb-canais').innerHTML = d.canais.map(c =>
+      `<tr>
+        <td>${c.canal}</td>
+        <td>${fmtN(c.leads)}</td>
+        <td>
+          <div class="pct-bar-wrap">
+            <div class="pct-bar" style="width:${Math.round(c.leads/maxLeads*120)}px"></div>
+            <span class="pct-label">${c.pct}%</span>
+          </div>
+        </td>
+      </tr>`).join('');
+
+    // Scoring
+    const sc = d.lead_scoring.totais;
+    document.getElementById('sc-ideal').textContent = sc['Ideal'] ?? 0;
+    document.getElementById('sc-bom').textContent   = sc['Bom'] ?? 0;
+    document.getElementById('sc-desc').textContent  = sc['Descarte'] ?? 0;
+    document.getElementById('sc-na').textContent    = sc['Sem dados'] ?? 0;
+
+    // Criativos
+    document.getElementById('tb-criativos').innerHTML = (d.criativos || []).map(c =>
+      `<tr class="criativo-row">
+        <td title="${c.nome}">${c.nome}</td>
+        <td>${fmt(c.spend)}</td>
+        <td>${fmtN(Math.round(c.impressoes))}</td>
+        <td>${fmtN(Math.round(c.cliques))}</td>
+      </tr>`).join('');
+
+    // Leitura
+    document.getElementById('leitura-es').textContent = d.leitura.es;
+    document.getElementById('leitura-pt').textContent = d.leitura.pt;
+
+    // Footer
+    document.getElementById('footer').textContent = 'Academia Serfa · Atualizado em ' + d.meta.atualizado_em;
+  })
+  .catch(e => {
+    document.querySelector('main').innerHTML = '<p style="color:#ef4444;padding:32px">Erro ao carregar data.json: ' + e.message + '</p>';
+  });
+</script>
+
+</body>
+</html>
