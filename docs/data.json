@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "cliente": "Academia Serfa",
+    "evento": "SDAY 6 JUNIO",
+    "periodo": "21/01 - 01/06",
+    "atualizado_em": "01/06/2026 17:23",
+    "dias_ativos": 12
+  },
+  "kpis": {
+    "investimento_total": 3037.44,
+    "cpl_total": 17.76,
+    "leads_total": 171
+  },
+  "audiencias": {
+    "hot": {
+      "leads": 111,
+      "spend": 2529.6,
+      "cpl": 22.79
+    },
+    "cold": {
+      "leads": 38,
+      "spend": 507.84,
+      "cpl": 13.36
+    }
+  },
+  "funil": {
+    "impressoes": 305666,
+    "cliques": 3518,
+    "lpv": 2046,
+    "leads": 171,
+    "ctr": 1.15,
+    "clk_to_lpv_pct": 58.16,
+    "lpv_to_lead_pct": 8.36
+  },
+  "leads_por_dia": [
+    {
+      "data": "21/01",
+      "leads": 1
+    },
+    {
+      "data": "11/02",
+      "leads": 1
+    },
+    {
+      "data": "14/05",
+      "leads": 1
+    },
+    {
+      "data": "18/05",
+      "leads": 1
+    },
+    {
+      "data": "19/05",
+      "leads": 1
+    },
+    {
+      "data": "26/05",
+      "leads": 1
+    },
+    {
+      "data": "27/05",
+      "leads": 28
+    },
+    {
+      "data": "28/05",
+      "leads": 28
+    },
+    {
+      "data": "29/05",
+      "leads": 22
+    },
+    {
+      "data": "30/05",
+      "leads": 35
+    },
+    {
+      "data": "31/05",
+      "leads": 21
+    },
+    {
+      "data": "01/06",
+      "leads": 31
+    }
+  ],
+  "canais": [
+    {
+      "canal": "FB",
+      "leads": 84,
+      "pct": 49.1
+    },
+    {
+      "canal": "IG",
+      "leads": 64,
+      "pct": 37.4
+    },
+    {
+      "canal": "Organico",
+      "leads": 16,
+      "pct": 9.4
+    },
+    {
+      "canal": "Sem Rastreio",
+      "leads": 6,
+      "pct": 3.5
+    },
+    {
+      "canal": "AN",
+      "leads": 1,
+      "pct": 0.6
+    }
+  ],
+  "criativos": [
+    {
+      "nome": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR",
+      "spend": 432.5699999999999,
+      "impressoes": 33337.0,
+      "cliques": 426.0
+    },
+    {
+      "nome": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA",
+      "spend": 354.9199999999993,
+      "impressoes": 30902.0,
+      "cliques": 360.0
+    },
+    {
+      "nome": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA",
+      "spend": 200.97000000000023,
+      "impressoes": 17495.0,
+      "cliques": 240.0
+    },
+    {
+      "nome": "AD-VD-ARQ-08-SDAY.ARQ.POST.SOFTWARE-PANTALLA-APRENDER-PARA-MEJORAR",
+      "spend": 162.10000000000002,
+      "impressoes": 14484.0,
+      "cliques": 182.0
+    },
+    {
+      "nome": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS",
+      "spend": 159.88000000000014,
+      "impressoes": 16207.0,
+      "cliques": 166.0
+    },
+    {
+      "nome": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE",
+      "spend": 155.23000000000005,
+      "impressoes": 17222.0,
+      "cliques": 214.0
+    },
+    {
+      "nome": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE",
+      "spend": 130.85000000000002,
+      "impressoes": 14941.0,
+      "cliques": 162.0
+    },
+    {
+      "nome": "AD-VD-ING-03-SDAY.POST.SOFTWARE-PANTALLA-CRITERIO",
+      "spend": 112.30000000000013,
+      "impressoes": 12764.0,
+      "cliques": 115.0
+    },
+    {
+      "nome": "AD-VD-ING-04-SDAY.POST.SUPERHEROE.SPIDERMAN",
+      "spend": 109.47000000000008,
+      "impressoes": 12047.0,
+      "cliques": 100.0
+    },
+    {
+      "nome": "NUGGET-AD-VD-ING-10-VIVIENDA-UNIFAMILIAR",
+      "spend": 108.70000000000014,
+      "impressoes": 13526.0,
+      "cliques": 129.0
+    }
+  ],
+  "segmentacao": {
+    "genero": [
+      {
+        "grupo": "female",
+        "spend": 730.28,
+        "ctr": 1.14,
+        "cpm": 12.66,
+        "cpc": 1.11
+      },
+      {
+        "grupo": "male",
+        "spend": 2258.29,
+        "ctr": 1.15,
+        "cpm": 9.37,
+        "cpc": 0.81
+      },
+      {
+        "grupo": "unknown",
+        "spend": 48.87,
+        "ctr": 1.32,
+        "cpm": 7.09,
+        "cpc": 0.54
+      }
+    ],
+    "faixa_etaria": [
+      {
+        "grupo": "35-44",
+        "spend": 1067.66,
+        "ctr": 0.89,
+        "cpm": 8.2,
+        "cpc": 0.92
+      },
+      {
+        "grupo": "45-54",
+        "spend": 1236.32,
+        "ctr": 1.34,
+        "cpm": 12.58,
+        "cpc": 0.94
+      },
+      {
+        "grupo": "25-34",
+        "spend": 315.0,
+        "ctr": 1.08,
+        "cpm": 6.25,
+        "cpc": 0.58
+      },
+      {
+        "grupo": "55-64",
+        "spend": 418.46,
+        "ctr": 1.84,
+        "cpm": 15.62,
+        "cpc": 0.85
+      },
+      {
+        "grupo": "Unknown",
+        "spend": 0.0,
+        "ctr": 0.0,
+        "cpm": 0.0,
+        "cpc": 0
+      }
+    ]
+  },
+  "lead_scoring": {
+    "totais": {
+      "Ideal": 4,
+      "Bom": 4,
+      "Descarte": 4,
+      "Sem dados": 3
+    },
+    "grupos": [
+      {
+        "email": "aristides_fernandez@hotmail.com",
+        "ingresos": "Bom",
+        "laboral": "Ruim",
+        "score": "Descarte"
+      },
+      {
+        "email": "o.ortegam09@gmail.com",
+        "ingresos": "Ruim",
+        "laboral": "Bom",
+        "score": "Descarte"
+      },
+      {
+        "email": "efimerasarq@gmail.com",
+        "ingresos": "Bom",
+        "laboral": "Ruim",
+        "score": "Descarte"
+      },
+      {
+        "email": "victorgonzalop04@gmail.com",
+        "ingresos": "Ruim",
+        "laboral": "Ruim",
+        "score": "Descarte"
+      },
+      {
+        "email": "jimenez.ric@gmail.com",
+        "ingresos": "Ideal",
+        "laboral": "Bom",
+        "score": "Bom"
+      },
+      {
+        "email": "crmn05@gmail.com",
+        "ingresos": null,
+        "laboral": "Bom",
+        "score": "Sem dados"
+      },
+      {
+        "email": "lorena.rodriguez.villalba@gmail.com",
+        "ingresos": "Ideal",
+        "laboral": "Ideal",
+        "score": "Ideal"
+      },
+      {
+        "email": "marquezmorenojavier@gmail.com",
+        "ingresos": "Bom",
+        "laboral": "Ideal",
+        "score": "Bom"
+      },
+      {
+        "email": "snc.arq@gmail.com",
+        "ingresos": null,
+        "laboral": "Ideal",
+        "score": "Sem dados"
+      },
+      {
+        "email": "halbarracin93@gmail.com",
+        "ingresos": "Bom",
+        "laboral": "Ideal",
+        "score": "Bom"
+      },
+      {
+        "email": "baaraabdelali92ing@gmail.com",
+        "ingresos": null,
+        "laboral": "Ruim",
+        "score": "Sem dados"
+      },
+      {
+        "email": "fabrizio.cocirio@gmail.com",
+        "ingresos": "Ruim",
+        "laboral": "Ideal",
+        "score": "Bom"
+      },
+      {
+        "email": "jeromosigor@gmail.com",
+        "ingresos": "Ideal",
+        "laboral": "Ideal",
+        "score": "Ideal"
+      },
+      {
+        "email": "info@estudiosp.es",
+        "ingresos": "Ideal",
+        "laboral": "Ideal",
+        "score": "Ideal"
+      },
+      {
+        "email": "eduramurb@gmail.com",
+        "ingresos": "Ideal",
+        "laboral": "Ideal",
+        "score": "Ideal"
+      }
+    ]
+  },
+  "leitura": {
+    "pt": "O público FRIO gera leads a €13.36, contra €22.79 do QUENTE, usando apenas 17% do gasto e trazendo 22% dos leads. O funil perde mais tráfego na passagem de LPV para lead, com apenas 8.36% de conversão. Os últimos 3 dias mostram variação no ritmo: 30/05: 35 | 31/05: 21 | 01/06: 31. Apenas 15 dos 171 leads responderam a pesquisa de qualificação, o que limita o scoring. Dos 15, a divisão entre Ideal, Bom e Descarte ficou em 4, 4 e 4 respectivamente.",
+    "es": "El publico COLD genera leads a €13.36, frente a €22.79 del HOT, con solo el 17% del presupuesto y el 22% de los leads. El funil pierde mas tráfico en el paso de LPV a lead, con solo el 8.36% de conversión. Los últimos 3 días muestran variación: 30/05: 35 | 31/05: 21 | 01/06: 31. Solo 15 de 171 leads respondieron la encuesta de cualificación, lo que limita el scoring. De esos 15, el reparto entre Ideal, Bueno y Descarte es de 4, 4 y 4 respectivamente."
+  }
+}
