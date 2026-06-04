@@ -4,13 +4,13 @@
     "evento": "SDAY 6 JUNIO",
     "periodo": "21/01 – 04/06",
     "datas_evento": "21/01 – 04/06",
-    "atualizado_em": "04/06/2026 13:35",
+    "atualizado_em": "04/06/2026 14:36",
     "dias_ativos": 18
   },
   "kpis": {
     "investimento_total": 5403.41,
-    "cpl_total": 19.51,
-    "leads_total": 277
+    "cpl_total": 19.44,
+    "leads_total": 278
   },
   "audiencias": {
     "hot": {
@@ -19,19 +19,19 @@
       "cpl": 26.48
     },
     "cold": {
-      "leads": 100,
+      "leads": 101,
       "spend": 1934.22,
-      "cpl": 19.34
+      "cpl": 19.15
     }
   },
   "funil": {
     "impressoes": 579701,
     "cliques": 8936,
     "page_views": 5726,
-    "leads": 277,
+    "leads": 278,
     "ctr": 1.54,
     "connect_rate": 64.08,
-    "taxa_conversao": 4.84
+    "taxa_conversao": 4.86
   },
   "leads_por_dia": [
     {"data": "21/01", "leads": 1},
@@ -51,7 +51,7 @@
     {"data": "01/06", "leads": 34},
     {"data": "02/06", "leads": 35},
     {"data": "03/06", "leads": 36},
-    {"data": "04/06", "leads": 26}
+    {"data": "04/06", "leads": 27}
   ],
   "cpl_por_dia": [
     {"data": "21/01", "leads": 1, "cpl": null},
@@ -71,12 +71,12 @@
     {"data": "01/06", "leads": 34, "cpl": 19.59},
     {"data": "02/06", "leads": 35, "cpl": 22.6},
     {"data": "03/06", "leads": 36, "cpl": 24.87},
-    {"data": "04/06", "leads": 26, "cpl": 18.03}
+    {"data": "04/06", "leads": 27, "cpl": 17.36}
   ],
   "canais": [
-    {"canal": "FB", "leads": 136, "pct": 49.1},
-    {"canal": "IG", "leads": 94, "pct": 33.9},
-    {"canal": "Orgânico", "leads": 34, "pct": 12.3},
+    {"canal": "FB", "leads": 136, "pct": 48.9},
+    {"canal": "IG", "leads": 95, "pct": 34.2},
+    {"canal": "Orgânico", "leads": 34, "pct": 12.2},
     {"canal": "Sem Rastreio", "leads": 12, "pct": 4.3},
     {"canal": "AN", "leads": 1, "pct": 0.4}
   ],
@@ -94,13 +94,13 @@
   ],
   "segmentacao": {
     "genero": [
-      {"grupo": "male", "spend": 3927.79, "ctr": 1.5, "cpm": 8.74, "cpc": 0.58, "leads": 201, "cpl": 19.54},
-      {"grupo": "female", "spend": 1370.54, "ctr": 1.66, "cpm": 11.97, "cpc": 0.72, "leads": 70, "cpl": 19.58},
+      {"grupo": "male", "spend": 3927.79, "ctr": 1.5, "cpm": 8.74, "cpc": 0.58, "leads": 202, "cpl": 19.44},
+      {"grupo": "female", "spend": 1370.54, "ctr": 1.66, "cpm": 11.97, "cpc": 0.72, "leads": 71, "cpl": 19.3},
       {"grupo": "unknown", "spend": 105.08, "ctr": 1.89, "cpm": 6.64, "cpc": 0.35, "leads": 5, "cpl": 21.02}
     ],
     "faixa_etaria": [
       {"grupo": "45-54", "spend": 2145.34, "ctr": 1.56, "cpm": 11.62, "cpc": 0.75, "leads": 110, "cpl": 19.5},
-      {"grupo": "35-44", "spend": 1918.92, "ctr": 1.37, "cpm": 7.81, "cpc": 0.57, "leads": 98, "cpl": 19.58},
+      {"grupo": "35-44", "spend": 1918.92, "ctr": 1.37, "cpm": 7.81, "cpc": 0.57, "leads": 99, "cpl": 19.38},
       {"grupo": "55-64", "spend": 732.39, "ctr": 2.1, "cpm": 14.86, "cpc": 0.71, "leads": 38, "cpl": 19.27},
       {"grupo": "25-34", "spend": 606.75, "ctr": 1.65, "cpm": 6.07, "cpc": 0.37, "leads": 31, "cpl": 19.57},
       {"grupo": "Unknown", "spend": 0.01, "ctr": 0.0, "cpm": 1.11, "cpc": 0, "leads": 0, "cpl": 0}
@@ -111,7 +111,7 @@
       "Ideal": 8,
       "Bom": 10,
       "Descarte": 7,
-      "Sem dados": 240
+      "Sem dados": 241
     },
     "grupos": [
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "03-HOT-ENG-180D-ING", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "ig", "ideal": 1, "bom": 2, "descarte": 0, "total": 3},
@@ -140,7 +140,7 @@
     ]
   },
   "leitura": {
-    "pt": "O CPL FRIO (<strong>€19.34</strong>) está abaixo do QUENTE (<strong>€26.48</strong>), mas o público QUENTE concentra <strong>47%</strong> dos leads com maior investimento. FB lidera a captação com 136 leads (<strong>49%</strong>), seguido do IG com 94 (<strong>34%</strong>) — juntos representam <strong>83%</strong> da captação paga. A taxa de conexão do funil está em <strong>64%</strong>, o que indica que a landing page está convertendo bem o tráfego que chega. Apenas <strong>9%</strong> dos leads preencheram o formulário de qualificação; desses, <strong>72%</strong> têm perfil Ideal ou Bom. O volume de hoje (26 leads) é menor que o de ontem (36), mas o evento é amanhã e o ritmo acumulado está dentro do esperado.",
-    "es": "El CPL COLD (<strong>€19.34</strong>) está por debajo del HOT (<strong>€26.48</strong>), pero el HOT concentra el <strong>47%</strong> de los leads con mayor inversión. FB lidera la captación con 136 leads (<strong>49%</strong>), seguido de IG con 94 (<strong>34%</strong>) — juntos representan el <strong>83%</strong> de la captación pagada. La tasa de conexión del funnel está en <strong>64%</strong>, lo que indica que la landing page está convirtiendo bien el tráfico que llega. Solo el <strong>9%</strong> de los leads rellenó el formulario de cualificación; de esos, el <strong>72%</strong> tiene perfil Ideal o Bueno. El volumen de hoy (26 leads) es inferior al de ayer (36), pero el evento es mañana y el ritmo acumulado está en línea con el objetivo."
+    "pt": "FB lidera a captação com 136 leads (<strong>49%</strong>), seguido de IG com 95. O público FRIO saiu mais barato (CPL <strong>€19.15</strong>) que o QUENTE (<strong>€26.48</strong>), com menos investimento e volume equivalente de captação. O volume diário cresceu de 21 em 31/05 até 36 em 03/06, com 27 hoje, dia ainda aberto. Apenas 25 de 278 leads (<strong>9%</strong>) responderam o formulário de qualificação: 8 Ideal, 10 Bom e 7 Descarte. A taxa de conversão LPV para lead está em <strong>4.86%</strong>, dentro do esperado para o evento.",
+    "es": "FB lidera la captación con 136 leads (<strong>49%</strong>), seguido de IG con 95. El público COLD salió más barato (CPL <strong>€19.15</strong>) que HOT (<strong>€26.48</strong>), con menor inversión y volumen equivalente en captación fría. El volumen diario creció de 21 el 31/05 hasta 36 el 03/06, con 27 hoy, día aún abierto. Solo 25 de 278 leads (<strong>9%</strong>) completaron el formulario de cualificación: 8 Ideal, 10 Buenos y 7 Descarte. La tasa de conversión LPV a lead está en <strong>4.86%</strong>, dentro del rango esperado para el evento."
   }
 }
