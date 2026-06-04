@@ -4,34 +4,34 @@
     "evento": "SDAY 6 JUNIO",
     "periodo": "21/01 – 04/06",
     "datas_evento": "21/01 – 04/06",
-    "atualizado_em": "04/06/2026 12:35",
+    "atualizado_em": "04/06/2026 13:35",
     "dias_ativos": 18
   },
   "kpis": {
-    "investimento_total": 5323.28,
-    "cpl_total": 19.43,
-    "leads_total": 274
+    "investimento_total": 5403.41,
+    "cpl_total": 19.51,
+    "leads_total": 277
   },
   "audiencias": {
     "hot": {
       "leads": 131,
-      "spend": 3466.91,
-      "cpl": 26.46
+      "spend": 3469.19,
+      "cpl": 26.48
     },
     "cold": {
-      "leads": 98,
-      "spend": 1856.37,
-      "cpl": 18.94
+      "leads": 100,
+      "spend": 1934.22,
+      "cpl": 19.34
     }
   },
   "funil": {
-    "impressoes": 570001,
-    "cliques": 8685,
-    "page_views": 5582,
-    "leads": 274,
-    "ctr": 1.52,
-    "connect_rate": 64.27,
-    "taxa_conversao": 4.91
+    "impressoes": 579701,
+    "cliques": 8936,
+    "page_views": 5726,
+    "leads": 277,
+    "ctr": 1.54,
+    "connect_rate": 64.08,
+    "taxa_conversao": 4.84
   },
   "leads_por_dia": [
     {"data": "21/01", "leads": 1},
@@ -51,7 +51,7 @@
     {"data": "01/06", "leads": 34},
     {"data": "02/06", "leads": 35},
     {"data": "03/06", "leads": 36},
-    {"data": "04/06", "leads": 23}
+    {"data": "04/06", "leads": 26}
   ],
   "cpl_por_dia": [
     {"data": "21/01", "leads": 1, "cpl": null},
@@ -69,40 +69,40 @@
     {"data": "30/05", "leads": 35, "cpl": 17.06},
     {"data": "31/05", "leads": 21, "cpl": 31.34},
     {"data": "01/06", "leads": 34, "cpl": 19.59},
-    {"data": "02/06", "leads": 35, "cpl": 22.59},
-    {"data": "03/06", "leads": 36, "cpl": 24.85},
-    {"data": "04/06", "leads": 23, "cpl": 16.93}
+    {"data": "02/06", "leads": 35, "cpl": 22.6},
+    {"data": "03/06", "leads": 36, "cpl": 24.87},
+    {"data": "04/06", "leads": 26, "cpl": 18.03}
   ],
   "canais": [
-    {"canal": "FB", "leads": 134, "pct": 48.9},
-    {"canal": "IG", "leads": 94, "pct": 34.3},
-    {"canal": "Orgânico", "leads": 33, "pct": 12.0},
-    {"canal": "Sem Rastreio", "leads": 12, "pct": 4.4},
+    {"canal": "FB", "leads": 136, "pct": 49.1},
+    {"canal": "IG", "leads": 94, "pct": 33.9},
+    {"canal": "Orgânico", "leads": 34, "pct": 12.3},
+    {"canal": "Sem Rastreio", "leads": 12, "pct": 4.3},
     {"canal": "AN", "leads": 1, "pct": 0.4}
   ],
   "criativos": [
-    {"nome": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "spend": 608.96, "impressoes": 51654, "cliques": 604, "leads": 604},
-    {"nome": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA", "spend": 487.31, "impressoes": 53995, "cliques": 1433, "leads": 1433},
-    {"nome": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR", "spend": 482.32, "impressoes": 37346, "cliques": 457, "leads": 457},
-    {"nome": "AD-VD-ING-05-SDAY.POST.SUPERHEROE.BATMAN", "spend": 299.71, "impressoes": 36044, "cliques": 367, "leads": 367},
-    {"nome": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE", "spend": 266.87, "impressoes": 33047, "cliques": 310, "leads": 310},
-    {"nome": "03.VD.SDAY.REEL.3", "spend": 256.53, "impressoes": 53977, "cliques": 1940, "leads": 1940},
-    {"nome": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "spend": 226.56, "impressoes": 24823, "cliques": 265, "leads": 265},
-    {"nome": "02.VD.SDAY.REEL.2", "spend": 226.44, "impressoes": 22222, "cliques": 787, "leads": 787},
-    {"nome": "NUGGET-AD-VD-ING-10-VIVIENDA-UNIFAMILIAR", "spend": 204.89, "impressoes": 21824, "cliques": 214, "leads": 214},
-    {"nome": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS", "spend": 191.79, "impressoes": 19690, "cliques": 192, "leads": 192}
+    {"nome": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "spend": 608.96, "impressoes": 51656, "cliques": 604, "leads": 604},
+    {"nome": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA", "spend": 507.01, "impressoes": 56834, "cliques": 1539, "leads": 1539},
+    {"nome": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR", "spend": 482.42, "impressoes": 37354, "cliques": 457, "leads": 457},
+    {"nome": "AD-VD-ING-05-SDAY.POST.SUPERHEROE.BATMAN", "spend": 322.2, "impressoes": 38811, "cliques": 384, "leads": 384},
+    {"nome": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE", "spend": 272.8, "impressoes": 33675, "cliques": 317, "leads": 317},
+    {"nome": "03.VD.SDAY.REEL.3", "spend": 263.37, "impressoes": 55463, "cliques": 2005, "leads": 2005},
+    {"nome": "02.VD.SDAY.REEL.2", "spend": 240.27, "impressoes": 23336, "cliques": 835, "leads": 835},
+    {"nome": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "spend": 226.7, "impressoes": 24828, "cliques": 265, "leads": 265},
+    {"nome": "NUGGET-AD-VD-ING-10-VIVIENDA-UNIFAMILIAR", "spend": 206.03, "impressoes": 21930, "cliques": 214, "leads": 214},
+    {"nome": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS", "spend": 191.85, "impressoes": 19694, "cliques": 192, "leads": 192}
   ],
   "segmentacao": {
     "genero": [
-      {"grupo": "male", "spend": 3871.87, "ctr": 1.48, "cpm": 8.76, "cpc": 0.59, "leads": 199, "cpl": 19.46},
-      {"grupo": "female", "spend": 1347.58, "ctr": 1.63, "cpm": 12.0, "cpc": 0.74, "leads": 69, "cpl": 19.53},
-      {"grupo": "unknown", "spend": 103.83, "ctr": 1.87, "cpm": 6.65, "cpc": 0.36, "leads": 5, "cpl": 20.77}
+      {"grupo": "male", "spend": 3927.79, "ctr": 1.5, "cpm": 8.74, "cpc": 0.58, "leads": 201, "cpl": 19.54},
+      {"grupo": "female", "spend": 1370.54, "ctr": 1.66, "cpm": 11.97, "cpc": 0.72, "leads": 70, "cpl": 19.58},
+      {"grupo": "unknown", "spend": 105.08, "ctr": 1.89, "cpm": 6.64, "cpc": 0.35, "leads": 5, "cpl": 21.02}
     ],
     "faixa_etaria": [
-      {"grupo": "45-54", "spend": 2117.01, "ctr": 1.55, "cpm": 11.63, "cpc": 0.75, "leads": 109, "cpl": 19.42},
-      {"grupo": "35-44", "spend": 1887.2, "ctr": 1.35, "cpm": 7.81, "cpc": 0.58, "leads": 97, "cpl": 19.46},
-      {"grupo": "55-64", "spend": 724.01, "ctr": 2.1, "cpm": 14.89, "cpc": 0.71, "leads": 37, "cpl": 19.57},
-      {"grupo": "25-34", "spend": 595.05, "ctr": 1.62, "cpm": 6.09, "cpc": 0.38, "leads": 31, "cpl": 19.2},
+      {"grupo": "45-54", "spend": 2145.34, "ctr": 1.56, "cpm": 11.62, "cpc": 0.75, "leads": 110, "cpl": 19.5},
+      {"grupo": "35-44", "spend": 1918.92, "ctr": 1.37, "cpm": 7.81, "cpc": 0.57, "leads": 98, "cpl": 19.58},
+      {"grupo": "55-64", "spend": 732.39, "ctr": 2.1, "cpm": 14.86, "cpc": 0.71, "leads": 38, "cpl": 19.27},
+      {"grupo": "25-34", "spend": 606.75, "ctr": 1.65, "cpm": 6.07, "cpc": 0.37, "leads": 31, "cpl": 19.57},
       {"grupo": "Unknown", "spend": 0.01, "ctr": 0.0, "cpm": 1.11, "cpc": 0, "leads": 0, "cpl": 0}
     ]
   },
@@ -111,7 +111,7 @@
       "Ideal": 8,
       "Bom": 10,
       "Descarte": 7,
-      "Sem dados": 238
+      "Sem dados": 240
     },
     "grupos": [
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "03-HOT-ENG-180D-ING", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "ig", "ideal": 1, "bom": 2, "descarte": 0, "total": 3},
@@ -140,7 +140,7 @@
     ]
   },
   "leitura": {
-    "pt": "O CPL FRIO (<strong>€18.94</strong>) esta abaixo do QUENTE (<strong>€26.46</strong>), indicando maior eficiencia na audiencia fria. O FB concentra <strong>48%</strong> dos leads pagos (134 de 229), seguido do IG com 94. A connect rate de <strong>64.27%</strong> esta boa, mas a conversao para lead de <strong>4.91%</strong> tem margem para melhorar na pagina. Apenas 30 leads responderam a pesquisa de qualificacao, mas 18 dos 25 com dados sao Ideal ou Bom. O dia 04/06 tem 23 leads ate o momento, frente a 36 do dia anterior, com <strong>€389</strong> ja investidos no dia.",
-    "es": "El CPL del COLD (<strong>€18.94</strong>) esta por debajo del HOT (<strong>€26.46</strong>), lo que muestra mayor eficiencia en audiencia fria. FB concentra el <strong>48%</strong> de los leads pagados (134 de 229), seguido de IG con 94. La connect rate del <strong>64.27%</strong> esta bien, pero la conversion a lead del <strong>4.91%</strong> tiene margen para mejorar en la pagina. Solo 30 leads completaron la encuesta de cualificacion, pero 18 de los 25 con datos son Ideal o Bueno. El 04/06 lleva 23 leads hasta el momento, frente a 36 del dia anterior, con <strong>€389</strong> ya invertidos en el dia."
+    "pt": "O CPL FRIO (<strong>€19.34</strong>) está abaixo do QUENTE (<strong>€26.48</strong>), mas o público QUENTE concentra <strong>47%</strong> dos leads com maior investimento. FB lidera a captação com 136 leads (<strong>49%</strong>), seguido do IG com 94 (<strong>34%</strong>) — juntos representam <strong>83%</strong> da captação paga. A taxa de conexão do funil está em <strong>64%</strong>, o que indica que a landing page está convertendo bem o tráfego que chega. Apenas <strong>9%</strong> dos leads preencheram o formulário de qualificação; desses, <strong>72%</strong> têm perfil Ideal ou Bom. O volume de hoje (26 leads) é menor que o de ontem (36), mas o evento é amanhã e o ritmo acumulado está dentro do esperado.",
+    "es": "El CPL COLD (<strong>€19.34</strong>) está por debajo del HOT (<strong>€26.48</strong>), pero el HOT concentra el <strong>47%</strong> de los leads con mayor inversión. FB lidera la captación con 136 leads (<strong>49%</strong>), seguido de IG con 94 (<strong>34%</strong>) — juntos representan el <strong>83%</strong> de la captación pagada. La tasa de conexión del funnel está en <strong>64%</strong>, lo que indica que la landing page está convirtiendo bien el tráfico que llega. Solo el <strong>9%</strong> de los leads rellenó el formulario de cualificación; de esos, el <strong>72%</strong> tiene perfil Ideal o Bueno. El volumen de hoy (26 leads) es inferior al de ayer (36), pero el evento es mañana y el ritmo acumulado está en línea con el objetivo."
   }
 }
