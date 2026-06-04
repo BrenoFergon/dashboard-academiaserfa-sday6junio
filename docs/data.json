@@ -4,13 +4,13 @@
     "evento": "SDAY 6 JUNIO",
     "periodo": "21/01 – 04/06",
     "datas_evento": "21/01 – 04/06",
-    "atualizado_em": "04/06/2026 11:35",
+    "atualizado_em": "04/06/2026 12:35",
     "dias_ativos": 18
   },
   "kpis": {
     "investimento_total": 5323.28,
-    "cpl_total": 19.5,
-    "leads_total": 273
+    "cpl_total": 19.43,
+    "leads_total": 274
   },
   "audiencias": {
     "hot": {
@@ -19,19 +19,19 @@
       "cpl": 26.46
     },
     "cold": {
-      "leads": 97,
+      "leads": 98,
       "spend": 1856.37,
-      "cpl": 19.14
+      "cpl": 18.94
     }
   },
   "funil": {
     "impressoes": 570001,
     "cliques": 8685,
     "page_views": 5582,
-    "leads": 273,
+    "leads": 274,
     "ctr": 1.52,
     "connect_rate": 64.27,
-    "taxa_conversao": 4.89
+    "taxa_conversao": 4.91
   },
   "leads_por_dia": [
     {"data": "21/01", "leads": 1},
@@ -51,7 +51,7 @@
     {"data": "01/06", "leads": 34},
     {"data": "02/06", "leads": 35},
     {"data": "03/06", "leads": 36},
-    {"data": "04/06", "leads": 22}
+    {"data": "04/06", "leads": 23}
   ],
   "cpl_por_dia": [
     {"data": "21/01", "leads": 1, "cpl": null},
@@ -71,12 +71,12 @@
     {"data": "01/06", "leads": 34, "cpl": 19.59},
     {"data": "02/06", "leads": 35, "cpl": 22.59},
     {"data": "03/06", "leads": 36, "cpl": 24.85},
-    {"data": "04/06", "leads": 22, "cpl": 17.69}
+    {"data": "04/06", "leads": 23, "cpl": 16.93}
   ],
   "canais": [
-    {"canal": "FB", "leads": 133, "pct": 48.7},
-    {"canal": "IG", "leads": 94, "pct": 34.4},
-    {"canal": "Orgânico", "leads": 33, "pct": 12.1},
+    {"canal": "FB", "leads": 134, "pct": 48.9},
+    {"canal": "IG", "leads": 94, "pct": 34.3},
+    {"canal": "Orgânico", "leads": 33, "pct": 12.0},
     {"canal": "Sem Rastreio", "leads": 12, "pct": 4.4},
     {"canal": "AN", "leads": 1, "pct": 0.4}
   ],
@@ -111,7 +111,7 @@
       "Ideal": 8,
       "Bom": 10,
       "Descarte": 7,
-      "Sem dados": 237
+      "Sem dados": 238
     },
     "grupos": [
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "03-HOT-ENG-180D-ING", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "ig", "ideal": 1, "bom": 2, "descarte": 0, "total": 3},
@@ -140,7 +140,7 @@
     ]
   },
   "leitura": {
-    "pt": "O CPL QUENTE (<strong>€26.46</strong>) está acima do FRIO (<strong>€19.14</strong>), mas o público QUENTE concentra <strong>65%</strong> do investimento e representa <strong>48%</strong> dos leads. FB lidera com 133 leads contra 94 do IG — o canal AN praticamente não contribui (1 lead). Hoje foram 22 leads, abaixo do ritmo dos últimos dias (35-36), o que é esperado com o evento a 2 dias. Do scoring, 18 de 30 respostas são Ideal ou Bom, indicando bom perfil comercial entre os que responderam.",
-    "es": "El CPL HOT (<strong>€26.46</strong>) está por encima del COLD (<strong>€19.14</strong>), pero el público HOT concentra el <strong>65%</strong> de la inversión y representa el <strong>48%</strong> de los leads. FB lidera con 133 leads frente a 94 de IG — el canal AN prácticamente no aporta (1 lead). Hoy se registraron 22 leads, por debajo del ritmo de los últimos días (35-36), lo que es esperable con el evento a 2 días. Del scoring, 18 de 30 respuestas son Ideal o Bueno, lo que indica buen perfil comercial entre quienes respondieron."
+    "pt": "O CPL FRIO (<strong>€18.94</strong>) esta abaixo do QUENTE (<strong>€26.46</strong>), indicando maior eficiencia na audiencia fria. O FB concentra <strong>48%</strong> dos leads pagos (134 de 229), seguido do IG com 94. A connect rate de <strong>64.27%</strong> esta boa, mas a conversao para lead de <strong>4.91%</strong> tem margem para melhorar na pagina. Apenas 30 leads responderam a pesquisa de qualificacao, mas 18 dos 25 com dados sao Ideal ou Bom. O dia 04/06 tem 23 leads ate o momento, frente a 36 do dia anterior, com <strong>€389</strong> ja investidos no dia.",
+    "es": "El CPL del COLD (<strong>€18.94</strong>) esta por debajo del HOT (<strong>€26.46</strong>), lo que muestra mayor eficiencia en audiencia fria. FB concentra el <strong>48%</strong> de los leads pagados (134 de 229), seguido de IG con 94. La connect rate del <strong>64.27%</strong> esta bien, pero la conversion a lead del <strong>4.91%</strong> tiene margen para mejorar en la pagina. Solo 30 leads completaron la encuesta de cualificacion, pero 18 de los 25 con datos son Ideal o Bueno. El 04/06 lleva 23 leads hasta el momento, frente a 36 del dia anterior, con <strong>€389</strong> ya invertidos en el dia."
   }
 }
