@@ -2,43 +2,46 @@
   "meta": {
     "cliente": "Academia Serfa",
     "evento": "SDAY 6 JUNIO",
-    "periodo": "21/01 – 03/06",
-    "datas_evento": "21/01 – 03/06",
-    "atualizado_em": "03/06/2026 12:07",
-    "dias_ativos": 14
+    "periodo": "21/01 – 04/06",
+    "datas_evento": "21/01 – 04/06",
+    "atualizado_em": "04/06/2026 11:15",
+    "dias_ativos": 18
   },
   "kpis": {
-    "investimento_total": 4303.51,
-    "cpl_total": 18.71,
-    "leads_total": 230
+    "investimento_total": 5323.28,
+    "cpl_total": 19.57,
+    "leads_total": 272
   },
   "audiencias": {
     "hot": {
-      "leads": 128,
-      "spend": 3161.96,
-      "cpl": 24.7
+      "leads": 131,
+      "spend": 3466.91,
+      "cpl": 26.46
     },
     "cold": {
-      "leads": 72,
-      "spend": 1141.55,
-      "cpl": 15.85
+      "leads": 96,
+      "spend": 1856.37,
+      "cpl": 19.34
     }
   },
   "funil": {
-    "impressoes": 458784,
-    "cliques": 6025,
-    "page_views": 3675,
-    "leads": 230,
-    "ctr": 1.31,
-    "connect_rate": 61.0,
-    "taxa_conversao": 6.26
+    "impressoes": 570001,
+    "cliques": 8685,
+    "page_views": 5582,
+    "leads": 272,
+    "ctr": 1.52,
+    "connect_rate": 64.27,
+    "taxa_conversao": 4.87
   },
   "leads_por_dia": [
     {"data": "21/01", "leads": 1},
     {"data": "11/02", "leads": 1},
-    {"data": "14/05", "leads": 1},
+    {"data": "19/04", "leads": 2},
+    {"data": "22/04", "leads": 1},
+    {"data": "14/05", "leads": 2},
+    {"data": "15/05", "leads": 1},
     {"data": "18/05", "leads": 1},
-    {"data": "19/05", "leads": 1},
+    {"data": "19/05", "leads": 2},
     {"data": "26/05", "leads": 1},
     {"data": "27/05", "leads": 28},
     {"data": "28/05", "leads": 28},
@@ -47,14 +50,18 @@
     {"data": "31/05", "leads": 21},
     {"data": "01/06", "leads": 34},
     {"data": "02/06", "leads": 35},
-    {"data": "03/06", "leads": 21}
+    {"data": "03/06", "leads": 36},
+    {"data": "04/06", "leads": 21}
   ],
   "cpl_por_dia": [
     {"data": "21/01", "leads": 1, "cpl": null},
     {"data": "11/02", "leads": 1, "cpl": null},
-    {"data": "14/05", "leads": 1, "cpl": null},
+    {"data": "19/04", "leads": 2, "cpl": null},
+    {"data": "22/04", "leads": 1, "cpl": null},
+    {"data": "14/05", "leads": 2, "cpl": null},
+    {"data": "15/05", "leads": 1, "cpl": null},
     {"data": "18/05", "leads": 1, "cpl": null},
-    {"data": "19/05", "leads": 1, "cpl": null},
+    {"data": "19/05", "leads": 2, "cpl": null},
     {"data": "26/05", "leads": 1, "cpl": 39.31},
     {"data": "27/05", "leads": 28, "cpl": 10.02},
     {"data": "28/05", "leads": 28, "cpl": 15.99},
@@ -62,60 +69,62 @@
     {"data": "30/05", "leads": 35, "cpl": 17.06},
     {"data": "31/05", "leads": 21, "cpl": 31.34},
     {"data": "01/06", "leads": 34, "cpl": 19.59},
-    {"data": "02/06", "leads": 35, "cpl": 22.56},
-    {"data": "03/06", "leads": 21, "cpl": 12.63}
+    {"data": "02/06", "leads": 35, "cpl": 22.59},
+    {"data": "03/06", "leads": 36, "cpl": 24.85},
+    {"data": "04/06", "leads": 21, "cpl": 18.54}
   ],
   "canais": [
-    {"canal": "FB", "leads": 115, "pct": 50.0},
-    {"canal": "IG", "leads": 84, "pct": 36.5},
-    {"canal": "Orgânico", "leads": 22, "pct": 9.6},
-    {"canal": "Sem Rastreio", "leads": 8, "pct": 3.5},
+    {"canal": "FB", "leads": 132, "pct": 48.5},
+    {"canal": "IG", "leads": 94, "pct": 34.6},
+    {"canal": "Orgânico", "leads": 33, "pct": 12.1},
+    {"canal": "Sem Rastreio", "leads": 12, "pct": 4.4},
     {"canal": "AN", "leads": 1, "pct": 0.4}
   ],
   "criativos": [
-    {"nome": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "spend": 537.57, "impressoes": 46181, "cliques": 518, "leads": 518},
-    {"nome": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR", "spend": 464.25, "impressoes": 35872, "cliques": 445, "leads": 445},
-    {"nome": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA", "spend": 328.67, "impressoes": 32767, "cliques": 530, "leads": 530},
-    {"nome": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE", "spend": 216.31, "impressoes": 27709, "cliques": 267, "leads": 267},
-    {"nome": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "spend": 192.58, "impressoes": 21433, "cliques": 241, "leads": 241},
-    {"nome": "AD-VD-ARQ-08-SDAY.ARQ.POST.SOFTWARE-PANTALLA-APRENDER-PARA-MEJORAR", "spend": 179.75, "impressoes": 15988, "cliques": 194, "leads": 194},
-    {"nome": "NUGGET-AD-VD-ING-10-VIVIENDA-UNIFAMILIAR", "spend": 178.47, "impressoes": 19697, "cliques": 191, "leads": 191},
-    {"nome": "AD-VD-ING-02-SDAY.POST.SOFTWARE-PANTALLA-APRENDER-PARA-MEJORAR", "spend": 165.42, "impressoes": 17542, "cliques": 144, "leads": 144},
-    {"nome": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS", "spend": 165.36, "impressoes": 16585, "cliques": 170, "leads": 170},
-    {"nome": "03.VD.SDAY.REEL.3", "spend": 165.18, "impressoes": 37361, "cliques": 1096, "leads": 1096}
+    {"nome": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "spend": 608.96, "impressoes": 51654, "cliques": 604, "leads": 604},
+    {"nome": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA", "spend": 487.31, "impressoes": 53995, "cliques": 1433, "leads": 1433},
+    {"nome": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR", "spend": 482.32, "impressoes": 37346, "cliques": 457, "leads": 457},
+    {"nome": "AD-VD-ING-05-SDAY.POST.SUPERHEROE.BATMAN", "spend": 299.71, "impressoes": 36044, "cliques": 367, "leads": 367},
+    {"nome": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE", "spend": 266.87, "impressoes": 33047, "cliques": 310, "leads": 310},
+    {"nome": "03.VD.SDAY.REEL.3", "spend": 256.53, "impressoes": 53977, "cliques": 1940, "leads": 1940},
+    {"nome": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "spend": 226.56, "impressoes": 24823, "cliques": 265, "leads": 265},
+    {"nome": "02.VD.SDAY.REEL.2", "spend": 226.44, "impressoes": 22222, "cliques": 787, "leads": 787},
+    {"nome": "NUGGET-AD-VD-ING-10-VIVIENDA-UNIFAMILIAR", "spend": 204.89, "impressoes": 21824, "cliques": 214, "leads": 214},
+    {"nome": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS", "spend": 191.79, "impressoes": 19690, "cliques": 192, "leads": 192}
   ],
   "segmentacao": {
     "genero": [
-      {"grupo": "male", "spend": 3160.51, "ctr": 1.28, "cpm": 8.81, "cpc": 0.69, "leads": 169, "cpl": 18.7},
-      {"grupo": "female", "spend": 1058.43, "ctr": 1.36, "cpm": 12.18, "cpc": 0.89, "leads": 57, "cpl": 18.57},
-      {"grupo": "unknown", "spend": 84.57, "ctr": 1.79, "cpm": 6.4, "cpc": 0.36, "leads": 5, "cpl": 16.91}
+      {"grupo": "male", "spend": 3871.87, "ctr": 1.48, "cpm": 8.76, "cpc": 0.59, "leads": 198, "cpl": 19.55},
+      {"grupo": "female", "spend": 1347.58, "ctr": 1.63, "cpm": 12.0, "cpc": 0.74, "leads": 69, "cpl": 19.53},
+      {"grupo": "unknown", "spend": 103.83, "ctr": 1.87, "cpm": 6.65, "cpc": 0.36, "leads": 5, "cpl": 20.77}
     ],
     "faixa_etaria": [
-      {"grupo": "45-54", "spend": 1739.72, "ctr": 1.45, "cpm": 11.6, "cpc": 0.8, "leads": 93, "cpl": 18.71},
-      {"grupo": "35-44", "spend": 1510.5, "ctr": 1.1, "cpm": 7.77, "cpc": 0.71, "leads": 81, "cpl": 18.65},
-      {"grupo": "55-64", "spend": 603.98, "ctr": 1.99, "cpm": 15.0, "cpc": 0.75, "leads": 32, "cpl": 18.87},
-      {"grupo": "25-34", "spend": 449.31, "ctr": 1.24, "cpm": 6.05, "cpc": 0.49, "leads": 24, "cpl": 18.72},
-      {"grupo": "Unknown", "spend": 0.0, "ctr": 0.0, "cpm": 0.0, "cpc": 0, "leads": 0, "cpl": 0}
+      {"grupo": "45-54", "spend": 2117.01, "ctr": 1.55, "cpm": 11.63, "cpc": 0.75, "leads": 108, "cpl": 19.6},
+      {"grupo": "35-44", "spend": 1887.2, "ctr": 1.35, "cpm": 7.81, "cpc": 0.58, "leads": 96, "cpl": 19.66},
+      {"grupo": "55-64", "spend": 724.01, "ctr": 2.1, "cpm": 14.89, "cpc": 0.71, "leads": 37, "cpl": 19.57},
+      {"grupo": "25-34", "spend": 595.05, "ctr": 1.62, "cpm": 6.09, "cpc": 0.38, "leads": 30, "cpl": 19.83},
+      {"grupo": "Unknown", "spend": 0.01, "ctr": 0.0, "cpm": 1.11, "cpc": 0, "leads": 0, "cpl": 0}
     ]
   },
   "lead_scoring": {
     "totais": {
-      "Ideal": 6,
-      "Bom": 8,
+      "Ideal": 8,
+      "Bom": 9,
       "Descarte": 6,
-      "Sem dados": 203
+      "Sem dados": 238
     },
     "grupos": [
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "03-HOT-ENG-180D-ING", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "ig", "ideal": 1, "bom": 2, "descarte": 0, "total": 3},
-      {"tipo": "OUTRO", "campanha": "", "conjunto": "email", "criativo": "email_1", "canal": "organico", "ideal": 0, "bom": 1, "descarte": 1, "total": 2},
+      {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "fb", "ideal": 1, "bom": 0, "descarte": 1, "total": 2},
+      {"tipo": "OUTRO", "campanha": "", "conjunto": "", "criativo": "", "canal": "Sem Rastreio", "ideal": 0, "bom": 0, "descarte": 0, "total": 2},
+      {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-P1-4REELS-2026-05-31", "conjunto": "00-COLD-ARQ-LAL-VP-WEB-ESP-180D", "criativo": "03.VD.SDAY.REEL.3", "canal": "fb", "ideal": 0, "bom": 2, "descarte": 0, "total": 2},
+      {"tipo": "OUTRO", "campanha": "", "conjunto": "email", "criativo": "email_1", "canal": "organico", "ideal": 1, "bom": 0, "descarte": 1, "total": 2},
       {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-P1-BLOCO1-2026-05-29", "conjunto": "00-COLD-ARQ-LAL-VV-C3-50%", "criativo": "AD-VD-ARQ-06-SDAY.ARQ.POST.ENTENDER-LA-BASE", "canal": "ig", "ideal": 0, "bom": 0, "descarte": 1, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "AD-VD-ING-03-SDAY.POST.SOFTWARE-PANTALLA-CRITERIO", "canal": "fb", "ideal": 0, "bom": 0, "descarte": 1, "total": 1},
-      {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "fb", "ideal": 0, "bom": 0, "descarte": 1, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-05-27", "conjunto": "01-HOT-ENG-60D-ARQ", "criativo": "AD-VD-ARQ-01-ARQ.POST.SOFTWARE-PANTALLA-CRITERIO-MASTERCLASS", "canal": "ig", "ideal": 0, "bom": 0, "descarte": 1, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-05-27", "conjunto": "02-HOT-ENG-90D-ARQ", "criativo": "AD-VD-ARQ-05-SDAY.ARQ.POST.SOFTWARE-PANTALLA-DEPENDENCIA", "canal": "ig", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "AD-VD-ING-03-SDAY.POST.SOFTWARE-PANTALLA-CRITERIO", "canal": "ig", "ideal": 0, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-29", "conjunto": "00-COLD-ING-LAL-VP-WEB-ESP-180D", "criativo": "AD-VD-ING-07-SDAY.POST.SERVILLETA-Y-CALCULADORA", "canal": "fb", "ideal": 1, "bom": 0, "descarte": 0, "total": 1},
-      {"tipo": "OUTRO", "campanha": "", "conjunto": "", "criativo": "", "canal": "Sem Rastreio", "ideal": 0, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-P1-BLOCO1-2026-05-29", "conjunto": "00-COLD-ARQ-LAL-VP-WEB-ESP-180D", "criativo": "AD-VD-ARQ-07-SDAY.ARQ.POST.SERVILLETA-Y-CALCULADORA", "canal": "ig", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
       {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-29", "conjunto": "00-COLD-ING-LAL-VV-C3-50%", "criativo": "NUGGET-AD-VD-ING-12-SDAY.NUGGET.SUPERHEROE.BATMAN", "canal": "fb", "ideal": 0, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ARQ-VD-FEED-STORIES-P1-BLOCO1-2026-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "NUGGET-AD-VD-ARQ-14-ARQ.VIVIENDA-UNIFAMILIAR", "canal": "fb", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
@@ -123,14 +132,14 @@
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "02-HOT-ENG-90D-ING", "criativo": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "canal": "fb", "ideal": 1, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "00-HOT-ENG-90D", "criativo": "NUGGET-AD-VD-ING-15-SEGURIDAD-EN-OBRA", "canal": "fb", "ideal": 1, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "04-HOT-ENG-360D-ING", "criativo": "AD-VD-ING-01-SDAY.POST.ENTENDER-LA-BASE", "canal": "fb", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
+      {"tipo": "OUTRO", "campanha": "", "conjunto": "whatsapp", "criativo": "email_1", "canal": "organico", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-VD-FEED-STORIES-P1-BLOCO1-2025-05-26", "conjunto": "01-MIX-HOT", "criativo": "AD-VD-ING-04-SDAY.POST.SUPERHEROE.SPIDERMAN", "canal": "fb", "ideal": 1, "bom": 0, "descarte": 0, "total": 1},
-      {"tipo": "COLD", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-COLD-ARQ-VD-FEED-STORIES-P1-4REELS-2026-05-31", "conjunto": "00-COLD-ARQ-LAL-VP-WEB-ESP-180D", "criativo": "03.VD.SDAY.REEL.3", "canal": "fb", "ideal": 0, "bom": 1, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ING-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2025-05-27", "conjunto": "03-HOT-ENG-180D-ING", "criativo": "AD-VD-ING-03-SDAY.POST.SOFTWARE-PANTALLA-CRITERIO", "canal": "fb", "ideal": 0, "bom": 0, "descarte": 0, "total": 1},
       {"tipo": "HOT", "campanha": "FT-SDAYJUN2026-INVITACION-ESP-HOT-ARQ-HIERARQUIA-VD-FEED-STORIES-P1-BLOCO1-2026-05-27", "conjunto": "04-HOT-ENG-180D-ARQ", "criativo": "AD-VD-ARQ-08-SDAY.ARQ.POST.SOFTWARE-PANTALLA-APRENDER-PARA-MEJORAR", "canal": "fb", "ideal": 0, "bom": 0, "descarte": 1, "total": 1}
     ]
   },
   "leitura": {
-    "pt": "O CPL do publico FRIO (<strong>€15.85</strong>) esta saindo mais barato que o QUENTE (<strong>€24.70</strong>), o que é normal em campanhas de awareness mas vale monitorar se isso se reflete em qualidade. O CTR global de <strong>1.31%</strong> esta abaixo do esperado para o volume de investimento: ha espaco para otimizar criativos ou segmentacoes. FB concentra <strong>50%</strong> dos leads pagos e IG <strong>36%</strong>, com AN praticamente sem volume — vale revisar se AN tem orcamento ativo ou se faz sentido redistribuir. Os ultimos 3 dias mostram ritmo estavel entre 21 e 35 leads por dia; o dado de hoje (21) ainda esta incompleto. Do scoring, apenas <strong>10%</strong> dos leads respondeu a pesquisa — desses, <strong>58%</strong> esta entre Ideal e Bom, o que e um bom sinal de perfil para quem se qualificou.",
-    "es": "El CPL del publico COLD (<strong>€15.85</strong>) esta saliendo mas barato que el HOT (<strong>€24.70</strong>), lo que es habitual en campanas de awareness pero conviene monitorizar si eso se traduce en calidad. El CTR global de <strong>1.31%</strong> esta por debajo de lo esperado para el volumen de inversion: hay margen para optimizar creativos o segmentaciones. FB concentra el <strong>50%</strong> de los leads pagados e IG el <strong>36%</strong>, con AN practicamente sin volumen — vale la pena revisar si AN tiene presupuesto activo o si se puede redistribuir. Los ultimos 3 dias muestran ritmo estable entre 21 y 35 leads diarios; el dato de hoy (21) todavia es parcial. Del scoring, solo el <strong>10%</strong> de los leads respondio la encuesta — de esos, el <strong>58%</strong> esta entre Ideal y Bueno, lo que es una buena señal de perfil para los que si se cualificaron."
+    "pt": "O público FRIO tem CPL <strong>€7</strong> mais baixo que o QUENTE (<strong>€19,34</strong> vs <strong>€26,46</strong>), mesmo recebendo menos investimento. FB traz 132 leads e IG 94, os dois canais pagos mais fortes. O evento é hoje e o dia já soma 21 leads com a sessão ainda aberta. Connect rate em <strong>64,27%</strong> e conversão LPV-lead em <strong>4,87%</strong> seguem estáveis. Só <strong>11%</strong> dos registrados completaram o formulário de qualificação, dos quais <strong>59%</strong> classifica como Ideal ou Bom.",
+    "es": "El público COLD tiene un CPL <strong>€7</strong> más bajo que HOT (<strong>€19,34</strong> vs <strong>€26,46</strong>) a pesar de recibir menos inversión. FB aporta 132 leads y IG 94, los dos canales pagos más fuertes. El evento es hoy y el día ya acumula 21 leads con la jornada aún abierta. Connect rate del <strong>64,27%</strong> y conversión LPV-lead del <strong>4,87%</strong> se mantienen estables. Solo el <strong>11%</strong> de los registrados completó el formulario de cualificación, de los que el <strong>59%</strong> clasifica como Ideal o Bueno."
   }
 }
